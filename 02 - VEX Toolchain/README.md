@@ -1,3 +1,5 @@
+//TODO: Finish setup guide
+
 # Chapter 2 - VEX Robotics Toolchain
 
 This chapter is focused on getting started with Vex tools and programming VEX Robots
