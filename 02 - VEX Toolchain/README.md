@@ -1,5 +1,3 @@
-//TODO: Finish setup guide
-
 # Chapter 2 - VEX Robotics Toolchain
 
 This chapter is focused on getting started with Vex tools and programming VEX Robots
@@ -37,15 +35,24 @@ Once you have installed the VSCode extension, you should see the Vex icon on the
 
 2. Vex Device Info
 
-   This is where information from the Brain will be loaded if one is connected. Details like Firmware version, ports, and device types will all be shown here
+   This is where information from the Brain will be loaded if one is connected, either by USB or wirelessly through a USB connected controller. Details like Firmware version, ports, and device types will all be shown here
 
 3. Vex Feedback
 
    This is installed by default and you can click the title bar to minimize it, we don't need it.
 
-Let's start by creating a new project.
+Let's start by creating a new Python project.
 
 1. Click the "New Project" button to start the project startup gui.
 2. Select "V5" as that is the platform we will be working with.
 3. Select Python as the language.
-4.
+4. Either select a template or the empty project template.
+5. Enter a name and description for the project, both will be visible on the brain (both can be changed later if needed).
+6. Choose a folder to save the project in.
+7. Click "Create" to create the new project.
+
+## Vex V5 API Documentation
+
+The Vex Python documentation is available at - https://api.vex.com/v5/home/python/index.html#
+
+This is a powerful resource detailing all of the Classes and Functions in the Vex Python library, with examples of how to use them.
